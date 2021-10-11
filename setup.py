@@ -5,8 +5,8 @@ setup(
     version = '1.0.0',
     description = 'my library for project',
     author = 'honeyd3wy',
-    author_email = None,
-    packages = find_packages(),
+    author_email = 'holysjy0410@gmail.com',
+    packages = ['pr3mylibrary'],
     install_requires=['aiohttp==3.7.4.post0',
     'aniso8601==9.0.1',
     'async-timeout==3.0.1',
@@ -64,6 +64,5 @@ setup(
     'zipp==3.6.0'
     ],
     url = 'https://github.com/honeyd3wy/pr3mylibrary.git',
-    py_modules = ['data_handling', 'get_myplaylist_api', 'model'],
     zip_safe = False
 )
