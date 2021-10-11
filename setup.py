@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name ='pr3mylibrary',
+    name ='pr3mylibrary1',
     version = '1.0.0',
     description = 'my library for project',
     author = 'honeyd3wy',
     author_email = 'holysjy0410@gmail.com',
-    packages = ['pr3mylibrary'],
-    py_modules=['data_handling', 'get_myplaylist_api', 'model'],
+    packages = ['pr3mylibrary1'],
+    py_modules=['get_myplaylist_api'],
     install_requires=['aiohttp==3.7.4.post0',
     'aniso8601==9.0.1',
     'async-timeout==3.0.1',
@@ -64,6 +64,6 @@ setup(
     'yarl==1.6.3',
     'zipp==3.6.0'
     ],
-    url = 'https://github.com/honeyd3wy/pr3mylibrary.git',
+    url = 'https://github.com/honeyd3wy/pr3mylibrary1.git',
     zip_safe = False
 )
