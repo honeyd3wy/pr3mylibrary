@@ -6,7 +6,7 @@ import json
 import sys
 
 # sys.path.append('C:/Users/ylwhd/section-3-project/my_app/mylibrary')
-from get_myplaylist_api import GetMyPlaylistTracks
+from pr3mylibrary.get_myplaylist_api import GetMyPlaylistTracks
 
 
 class MyTracksInfoList():
