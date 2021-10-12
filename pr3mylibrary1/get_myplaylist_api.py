@@ -3,7 +3,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 
 # spotify api
 cid = '591812685f3f4a16bac164011f7f3e33'
-secret = 'sh...'
+secret = 'cec92bbc981b41d49fc7dadcbce0d0f6'
 
 class SpotipyObj():
     def __init__(self, cid=cid, secret=secret):
