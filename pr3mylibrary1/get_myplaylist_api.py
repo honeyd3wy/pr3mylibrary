@@ -6,6 +6,9 @@ cid = '591812685f3f4a16bac164011f7f3e33'
 secret = 'cec92bbc981b41d49fc7dadcbce0d0f6'
 
 class SpotipyObj():
+    """
+    spotipy 객체를 리턴합니다.
+    """
     def __init__(self, cid=cid, secret=secret):
         self.cid = cid
         self.secret = secret
